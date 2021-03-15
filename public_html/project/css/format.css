@@ -1,0 +1,1019 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.body_content{
+  /* text-align: center; */
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  padding: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+  filter: drop-shadow(2px 2px 2px #d4d4d4);
+  /* position: relative;
+  z-index: 2; */
+}
+
+
+/* HEADER ONE */
+.header_one {
+  overflow: hidden;
+  background-color: white;
+  height: 80px;
+  border-top: solid 8px #EE1B2F;
+}
+
+img.header_logo {
+  width: 100%;
+  max-width: 300px;
+  margin-top: -5%;
+  margin-left: 5%;
+  text-align: center;
+  background-color: #EE1B2F;
+  border: 14px solid #EE1B2F;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+  filter: drop-shadow(2px 2px 2px #d4d4d4);
+}
+
+.header_one a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+/* .header_one a.active {
+  background-color: #2196F3;
+  color: white;
+} */
+
+@media screen and (max-width: 700px) {
+  .header_one, img.logo {
+    float: none;
+    text-align: center;
+  }
+}
+
+
+
+/* HEADER TWO */
+.header_two {
+  font-weight: 400;
+  background: white;
+  border: none;
+  padding-bottom: 10px;
+  height: 65px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-filter: drop-shadow(0px 5px 3px #e4e3e3);
+  filter: drop-shadow(0px 5px 3px #e4e3e3);
+  display: flex;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+  
+.main-nav {
+  list-style-type: none;
+  display: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.main-nav li {
+  margin: 0;
+}
+  
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  font-size: 1.5vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:50px;
+  margin-right:50px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:50px;
+  margin-right:50px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.nav-links:hover {
+  border-top: 2px rgba(255, 255, 255, 0.8);
+  color: #EE1B2F;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 148px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.active {
+  display: block;
+  height: 370px;
+  background-color: grey;
+}
+
+@media screen and (max-width: 940px) {
+  .nav-links {
+    font-size: 1.6vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:40px;
+  margin-right:40px;
+  }
+}
+@media screen and (max-width: 801px) {
+  .nav-links {
+    font-size: 1.6vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:35px;
+  margin-right:35px;
+  }
+}
+@media screen and (max-width: 707px) {
+  .nav-links {
+    font-size: 1.7vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:30px;
+  margin-right:30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-links {
+    font-size: 1.7vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:25px;
+  margin-right:25px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-links {
+    font-size: 1.8vw;
+  margin-top: 42px;
+  margin-bottom: 50px;
+  margin-left:20px;
+  margin-right:20px;
+  }
+}
+
+
+
+/* LANDING PAGE */
+.landing_img1_text {
+  color: red;
+}
+
+.column_left {
+  max-height: 100%;
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+  text-align: left;
+  padding-top: 3%;
+  padding-right: 2%;
+}
+.column_right {
+  height: auto;
+  width: 50%;
+}
+
+.row {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+.landing_img1{
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-filter: drop-shadow(0px 5px 3px #e4e3e3);
+  filter: drop-shadow(0px 5px 3px #e4e3e3);
+}
+
+.events{
+  width: 85%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-top: 3px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .event_posting{
+    font-size: 1.6vw;
+    display: block;
+    width: 85%;
+    height: auto;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    -webkit-filter: drop-shadow(1px 1px 1px #d4d4d4);
+    filter: drop-shadow(1px 1px 1px #d4d4d4);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .event_posting{
+    font-size: 1.6vw;
+    display: inline-block;
+    width: 24%;
+    height: auto;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    -webkit-filter: drop-shadow(1px 1px 1px #d4d4d4);
+    filter: drop-shadow(1px 1px 1px #d4d4d4);
+  }
+}
+
+.events_view_more {
+  font-size: 1.6vw;
+  text-decoration: none;
+  color: #EE1B2F;
+  margin-left: -2%;
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+  filter: drop-shadow(2px 2px 2px #d4d4d4);
+}
+
+.events a {
+  text-decoration: none;
+  color: black;
+}
+
+.events a:hover {
+  text-decoration: none;
+  color: #EE1B2F;
+}
+
+
+/* ----------------------------------------------- top banner image ------------------------------------------------- */
+.banner img{
+  display: block;
+  width: 100vw;
+  height: auto;
+  opacity: 1;
+}
+  
+  
+/* ----------------------------------------------- Current Students Menu Bar ------------------------------------------------- */
+
+.menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 5 columns that float next to each other */
+.cur_student_options .btn1 {
+  float: left;
+  width: 19%;
+  padding: 10px;
+  margin: 3px;
+  height: 105px;
+  background-color: #EE1B2F;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 1;
+  border: none;
+  font-size: 18px;
+  padding: 0;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  border-radius: 2px;
+}
+.cur_student_options .btn1:hover, .cur_student_options a:hover{
+  background-color: red;
+
+}
+.cur_student_options .btn1:hover{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content1 {
+  display: none;
+  margin-right: 3px;
+  position: absolute;
+  /* z-index: -1; */
+  background-color:#ffffff;
+  font-size: 13px;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  width: 17.1%;
+  text-align: center;
+  margin-top: 108px;
+  margin-left: 3px;
+  border-radius: 2px;
+}
+.dropdown-content2 {
+  display: none;
+  margin-right: 3px;
+  position: absolute;
+  background-color:#ffffff;
+  font-size: 13px;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  width: 17.1%;
+  text-align: center;
+  margin-top: 108px;
+  margin-left: 17.85%;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  border-radius: 2px;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a {
+  color: black;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #EE1B2F;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #EE1B2F;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+
+.cur_student_options .no_drop {
+  float: left;
+  width: 19%;
+  padding: 10px;
+  margin: 3px;
+  height: 105px;
+  background-color: #EE1B2F;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  border-radius: 2px;
+}
+
+
+/* stack at 800px */
+@media screen and (max-width: 800px) {
+  .cur_student_options .no_drop, .cur_student_options .btn1{ 
+    width: 100%;
+  }
+  .cur_student_options .dropdown-content1{
+    width: 90%;
+    margin-left: 3px;
+  }
+  .cur_student_options .dropdown-content2 {
+    width: 90%;
+    margin-left: 3px;
+    margin-top: 212px;
+  }
+}
+
+/* ----------------------------------------------- Future Students Menu Bar ------------------------------------------------- */
+
+.cur_student_options .no_drop2 {
+  float: left;
+  width: 24%;
+  padding: 10px;
+  margin: 3px;
+  height: 105px;
+  background-color: #EE1B2F;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  .cur_student_options .no_drop2 {
+    width: 48.5%;
+  }
+}
+
+/* ----------------------------------------------- Faculty & Staff Menu Bar ------------------------------------------------- */
+
+.cur_student_options .no_drop3 {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  margin: 3px;
+  height: 105px;
+  background-color: #EE1B2F;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  .cur_student_options .no_drop3 {
+    width: 100%;
+  }
+}
+  
+  /* ----------------------------------------------- Faculty & Staff Menu Bar ------------------------------------------------- */
+
+.cur_student_options .no_drop3 {
+  float: left;
+  width: 32%;
+  padding: 10px;
+  margin: 3px;
+  height: 105px;
+  background-color: #EE1B2F;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  .cur_student_options .no_drop3 {
+    width: 100%;
+  }
+}
+  
+  /* LEARN MORE */
+
+  .dropdown-content3 {
+    display: none;
+    margin-right: 3px;
+    position: absolute;
+    background-color:#ffffff;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    width: 21.7%;
+    text-align: center;
+    margin-top: 108px;
+    margin-left: .23%;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    border-radius: 2px;
+  }  
+  
+  .dropdown-content4 {
+    display: none;
+    margin-right: 3px;
+    position: absolute;
+    background-color:#ffffff;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    width: 22.1%;
+    text-align: center;
+    margin-top: 108px;
+    margin-left: 22.2%;
+    border-radius: 2px;
+    
+  }
+
+  .dropdown-content5 {
+    display: none;
+    margin-right: 3px;
+    position: absolute;
+    background-color:#ffffff;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    width: 22.6%;
+    text-align: center;
+    margin-top: 108px;
+    margin-left: 44%;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    border-radius: 2px;
+  }  
+  
+  .dropdown-content6 {
+    display: none;
+    margin-right: 3px;
+    position: absolute;
+    background-color:#ffffff;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    width: 22.9%;
+    text-align: center;
+    margin-top: 108px;
+    margin-left: 66.1%;
+    border-radius: 2px;
+    
+  }
+
+  .dropdown-content7 {
+    display: none;
+    margin-right: 3px;
+    position: absolute;
+    background-color:#ffffff;
+    font-size: 13px;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    width: 21.7%;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 3px;
+    border-radius: 2px;
+    
+  }
+
+  .cur_student_options .no_drop4 {
+    float: left;
+    width: 24%;
+    padding: 10px;
+    margin: 3px;
+    height: 105px;
+    background-color: #EE1B2F;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    border-radius: 2px;
+  }
+
+  .cur_student_options .btn2 {
+    float: left;
+    width: 24%;
+    padding: 10px;
+    margin: 3px;
+    height: 105px;
+    background-color: #EE1B2F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 1;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    box-shadow: 0px 4px 8px 0px rgba(99, 99, 99, 0.2);
+    border-radius: 2px;
+  }
+
+  .cur_student_options a:hover{
+    /* background-color: red; */
+  }
+
+  .cur_student_options .btn2:hover{
+    background-color: red;
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .dropdown-content3 a {
+    color: black;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content4 a {
+    color: black;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content3 a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #EE1B2F;
+
+  }
+  
+  .dropdown:hover .dropdown-content3 {
+    display: block;
+  }
+  
+  .dropdown-content4 a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #EE1B2F;
+  }
+  
+  .dropdown:hover .dropdown-content4 {
+    display: block;
+  }
+
+  .dropdown-content5 a {
+    color: black;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content6 a {
+    color: black;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content5 a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #EE1B2F;
+  }
+  
+  .dropdown:hover .dropdown-content5 {
+    display: block;
+  }
+  
+  .dropdown-content6 a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #EE1B2F;
+  }
+  
+  .dropdown:hover .dropdown-content6 {
+    display: block;
+  }
+
+  .dropdown-content7 a {
+    color: black;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content7 a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #EE1B2F;
+  }
+  .dropdown:hover .dropdown-content7 {
+    display: block;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .cur_student_options .no_drop4, .cur_student_options .btn2{ 
+      width: 48.5%;
+    }
+    .cur_student_options .dropdown-content3 {
+      width: 43.7%;
+      margin-left: .5%;
+    }
+    .cur_student_options .dropdown-content4 {
+      width: 44.3%;
+      margin-left: 44.8%;
+    }
+    .cur_student_options .dropdown-content5 {
+      width: 43.7%;
+      margin-left: .5%;
+      margin-top: 220px;
+    }
+    .cur_student_options .dropdown-content6 {
+      width: 44.3%;
+      margin-left: 44.8%;
+      margin-top: 220px;
+    }
+    .cur_student_options .dropdown-content7 {
+      width: 43.7%;
+      margin-left: .5%;
+      margin-top: 330px;
+    }
+  }
+  
+  
+  
+  
+  /* SEARCH BAR */
+  .search-bar {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    padding: 5%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-radius: 4px;
+    -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+    filter: drop-shadow(2px 2px 2px #d4d4d4);
+  }
+  
+  .search-bar input[type=text] {
+    padding: 2%;
+    width: 75%;
+    font-size: 1.6vw;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 2% 7%;
+    text-align: center;
+    background: #EE1B2F;
+    font-size: 1.6vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background: red;
+  }
+  
+  
+  
+  /* FOOTER */
+  .footer{
+    height: 90px;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 1.5px solid red;
+    -webkit-filter: drop-shadow(0px -1px 2px #d4d4d4);
+    filter: drop-shadow(0px -1px 2px #d4d4d4);
+    vertical-align: middle;
+  }
+  
+  img.footer_logo{
+    height: 55%;
+    float: right;
+    margin-right: 7%;
+    margin-top: 1%;
+  }
+  
+  .footer p {
+    width: 65%;
+    font-size: 1vw;
+    vertical-align: middle;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    bottom: 65%; 
+    padding-left: 5%
+  }
+
+
+
+
+
+
+
+  /*body content used in Future student landing page*/
+/* .body_content{
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  padding: 2.5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+  filter: drop-shadow(2px 2px 2px #d4d4d4);
+  position: relative;
+} */
+
+.body_content .link{
+  color: grey;/*#EE1B2F;*/
+  text-decoration: none;
+}
+.body_content .link:hover{
+  color: #EE1B2F;
+}
+
+/* Courses Page - adapted from events display */
+
+.class{
+  width: 85%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-top: 3px solid black;
+}
+
+.class_posting{
+  font-size: 1.6vw;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  color: black;
+  background-color: white;
+  -webkit-filter: drop-shadow(1px 1px 1px #d4d4d4);
+  filter: drop-shadow(1px 1px 1px #d4d4d4);
+  border-radius: 3px;
+  }
+
+.class_view_more {
+  font-size: 1.6vw;
+  text-decoration: none;
+  color: #EE1B2F;
+  margin-left: -2%;
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+  filter: drop-shadow(2px 2px 2px #d4d4d4);
+}
+
+.class a {
+  text-decoration: none;
+  color: black;
+}
+
+.class a:hover {
+  text-decoration: none;
+  color: #EE1B2F;
+}
+
+/* adding to Research page */
+
+.research_image {
+  height: auto;
+  width: auto;
+  max-width: 29%;
+  /* float: right; */
+  /* margin-top: -80px; */
+  display: inline-block;
+  text-align: right;
+  /*vertical-align: text-bottom;
+  margin-left: 104%;
+  overflow: hidden; */
+}
+
+.research{
+  width: 85%;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-top: 3px solid black;
+}
+
+.research_posting{
+  font-size: 1.8vw;
+  display: inline-block;
+  width: 40%;
+  margin-left: 15%;;
+  height: auto;
+  padding: 12px;
+  color: black;
+  background-color: white;
+  -webkit-filter: drop-shadow(1px 1px 1px #d4d4d4);
+  filter: drop-shadow(1px 1px 1px #d4d4d4);
+  border-radius: 3px;
+  }
+
+
+/* faculty */
+
+.faculty_body {
+  /* padding: 20px; */
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.txt {
+  font-size: 18px;
+  /* word-break: break-all; */
+}
+
+.faculty_row {
+  margin: 8px -16px;
+  margin-left: 2%;
+}
+
+/* Add padding BETWEEN each column */
+.faculty_row,
+.faculty_row > .faculty_column {
+  padding: 8px;
+}
+
+.faculty_column {
+  float: left;
+  width: 25%;
+}
+
+.faculty_view_more {
+  /* font-size: 1.6vw; */
+  text-decoration: none;
+  color: black;
+  /* text-decoration: none;
+  color: #EE1B2F; */
+  /* margin-left: -2%; */
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+  -webkit-filter: drop-shadow(2px 2px 2px #d4d4d4);
+  filter: drop-shadow(2px 2px 2px #d4d4d4);
+}
+
+.faculty_view_more:hover {
+  text-decoration: none;
+  color: #EE1B2F;
+}
+
+/* Clear floats after rows */ 
+.faculty_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.faculty_content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 780px) {
+  .faculty_column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .faculty_column {
+    width: 50%;
+  }
+}
