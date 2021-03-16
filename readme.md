@@ -1,4 +1,4 @@
-full stack read me
+# mcgill school of computer science redesign
 
 to do:
 
