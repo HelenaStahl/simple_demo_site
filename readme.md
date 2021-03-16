@@ -1,7 +1,7 @@
 # McGill School of Computer Science Redesign
 
 ## Introduction:
-Simple design of the software for a mock music player application written in Java.
+Redesign of the McGill SOCS website that completely recreates both the front and backend of the current website.
 
 ## Technologies:
 Project is created with:
