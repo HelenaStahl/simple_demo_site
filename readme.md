@@ -1,4 +1,4 @@
-# McGill School of Computer Science redesign
+# McGill School of Computer Science Redesign
 
 ## Introduction:
 
