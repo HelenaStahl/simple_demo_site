@@ -1,4 +1,10 @@
-# mcgill school of computer science redesign
+# McGill School of Computer Science redesign
 
-to do:
+## Introduction:
+
+## Project Status:
+
+## Technologies:
+
+## Launch:
 
