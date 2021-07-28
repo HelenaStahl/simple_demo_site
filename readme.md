@@ -1,5 +1,7 @@
 # McGill School of Computer Science Website Redesign
 
+test here
+
 ## Introduction:
 Redesign of the McGill SOCS website that completely recreates both the front and backend of the current website.
 * Front-end created with HTML, CSS, and Javascript to display an elegant and intuitive design for the site.
